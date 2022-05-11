@@ -12,7 +12,7 @@ export class GuiModel {
                     "id": "FriendForm",
                     "title": "Friend",
                     "url": "/friend",
-                    "formFieldList": [
+                    "formFieldList": [          
                         {
                             "id": "familyName",
                             "type": "text",
@@ -27,6 +27,13 @@ export class GuiModel {
                             "width": 1,
                             "required": true
                         },
+                        {
+                            "id": "nickname",
+                            "type": "text",
+                            "name": "Nickname",
+                            "width": 2,
+                            "required": true
+                            },  
                         {
                             "id": "location",
                             "type": "autocomplete",
@@ -138,6 +145,13 @@ export class GuiModel {
                             "color": "yellow",
                             "page": "locationspage",
                         },
+                        {
+                            "type": "button",
+                            "name": "Groups",
+                            "icon": "fa-weixin",
+                            "color": "green",
+                            "page": "groupspage",
+                            },
                     ]
                 },
                 {
