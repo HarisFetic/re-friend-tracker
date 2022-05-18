@@ -3,7 +3,7 @@ export class GuiModel {
     /* HINWEIS: Texte sind in der Datei ../example-translation-service.ts definiert.
     Erscheinen Texte in {}, so kann die Übersetzung in example-translation-service.ts definiert werden
     */
-   //Bisaufgabe 2 fertig
+    //Bisaufgabe 2 fertig
 
     private _guiModel = {
         "application": {
@@ -79,6 +79,7 @@ export class GuiModel {
                         }
                     ]
                 },
+
                 {
                     "id": "LocationForm",
                     "title": "Location",
@@ -184,7 +185,7 @@ export class GuiModel {
                             "type": "button",
                             "name": "Groups",
                             "icon": "fa-weixin",
-                            "color": "green",
+                            "color": "purple",
                             "page": "groupspage",
                         },
                         {
@@ -219,6 +220,15 @@ export class GuiModel {
                             "color": "green",
                             "form": {
                                 "form": "FriendForm"
+                            }
+                        },
+                        {
+                            "type": "newButton",
+                            "name": "AddActivity",
+                            "icon": "fa-0",
+                            "color": "green",
+                            "form": {
+                                "form": "AddActivityForm"
                             }
                         },
                         {
