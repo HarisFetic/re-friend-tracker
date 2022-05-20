@@ -119,7 +119,7 @@ export class GuiModel {
                         {
                             "type": "list",
                             "icon": "fa-weixin",
-                            "color": "wisteria",
+                            "color": "lime",
                             "search": true,
                             "url": "/group",
                             "form": {
@@ -156,7 +156,7 @@ export class GuiModel {
                         {
                             "type": "list",
                             "icon": "fa-solid fa-calendar",
-                            "color": "carrot",
+                            "color": "pomegranate",
                             "search": true,
                             "url": "/friend/:friendKey/activity",
                             "form": {
@@ -220,7 +220,7 @@ export class GuiModel {
                         {
                             "type": "list",
                             "icon": "fa-solid fa-calendar",
-                            "color": "",
+                            "color": "pomegranate",
                             "search": true,
                             "url": "/activity",
                             "page": "activityfriendspage"
